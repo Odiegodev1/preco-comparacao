@@ -45,7 +45,7 @@ function Hero() {
       <div className="w-1/2">
         <input
           type="text"
-          placeholder="Digite o produto que deseja comparar"
+          placeholder="Digite o produto que deseja "
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="w-full p-2 border border-gray-300 rounded mb-7 text-black"
